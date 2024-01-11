@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F2F2F2;
+  color: #333333;
+}
+
+a, button {
+  color: #003366;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover, button:hover {
+  color: #FF851B;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+  background-color: #f4f4f4;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 1.1em;
+}

@@ -1,0 +1,87 @@
+.sidebar {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: flex-start; /* Distributes space evenly between main elements */
+    height: 100vh;
+    width: 150px;
+    padding: 20px;
+    background-color: #333;
+    box-sizing: border-box;
+  }
+  
+  
+  .logo, .navigation,.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers children horizontally */
+    width: 100%;
+    }
+
+  .logo {
+    margin-bottom: 20px; /* Adjust spacing as needed */
+    width: 100%; /* Full width of sidebar */
+    text-align: center;
+  }
+  
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure buttons expand to the full width of the sidebar */
+  }
+  
+  .nav-button {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full width of navigation container */
+    box-sizing: border-box;
+    text-decoration: none; /* Removes underline */
+    display:block; /* Makes the link fill the width like a block element */
+    text-align: center; /* Ensures text is centered */
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto; 
+    width: 100%; /* Aligns the logout button and user profile with the navigation width */
+  }
+  
+  .user-profile {
+    margin: 10px 0;
+    text-align: center; /* Center align user name text */
+  }
+  
+  .logout-button, .login-button{
+    background-color: rgb(231, 88, 88);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full width of user-info container */
+  }
+
+  .nav-button:hover {
+    background-color: #cec6c5; /* Lighten the button color on hover */
+    /* Other hover styles can be added here */
+  }
+  
+  .logout-button:hover, .login-button:hover{
+    background-color: rgb(207, 133, 133);
+  }
+
+  .nav-button.active {
+    background-color: #cec6c5; 
+  }
+
+  .user-profile {
+    overflow-wrap: break-word; /* Ensures long words break and wrap onto the next line */
+    word-break: break-all; /* To prevent overflow, long words will be broken and wrapped */
+    white-space: nowrap; /* Prevents wrapping and instead will show an ellipsis (...) */
+    text-overflow: ellipsis; /* Adds an ellipsis when the text overflows */
+    max-width: 100%; /* Ensures the div doesn't exceed the width of its parent */
+  }

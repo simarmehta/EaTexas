@@ -1,0 +1,40 @@
+/* Style for the App header */
+.App-header {
+  background-color: #f3f5f9;
+  padding: 20px;
+  color: rgb(27, 25, 25);
+  text-align: center;
+}
+
+/* General button style */
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+/* Style for user information and buttons container */
+.user-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style for user email display */
+.user-email {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #ddd;
+}

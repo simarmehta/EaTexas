@@ -1,0 +1,51 @@
+.restaurant-card {
+  width: 300px; /* Fixed width */
+  height: 170px; /* Fixed height */
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e0e0e0; /* Light gray border */
+  padding: 20px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: all 0.3s ease;
+}
+
+.restaurant-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+}
+
+.restaurant-card.selected {
+  background-color: #f8f8f8; /* Light gray background for selected card */
+}
+
+.restaurant-name {
+  font-size: clamp(1rem, 2.5vw, 1.5rem); /* Adjusts size between 1rem and 1.5rem */
+  line-height: 1.2;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  margin-bottom: 0.25rem;
+}
+
+.restaurant-info {
+  display: flex; /* Aligns items on the same line */
+  justify-content: space-between; /* Separates items to each side */
+  align-items: baseline; /* Aligns items by their baseline */
+  margin-bottom: 0.5rem; /* Adds some margin below the price range and rating */
+}
+
+.restaurant-category,
+.restaurant-price-range,
+.restaurant-rating {
+  font-size: 1rem;
+  color: #666; /* Medium gray for secondary text */
+  margin: 0; 
+}
+
+.restaurant-rating {
+  font-weight: bold;
+  color: #1e8e3e; /* Uber's accent green for ratings */
+}

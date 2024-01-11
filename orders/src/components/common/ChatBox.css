@@ -1,0 +1,94 @@
+.chatbox {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Adjust the height as needed */
+  width: 75%; /* Adjust width according to the sidebar width */
+ /*  margin-left: 5%; Adjust margin to push the chat box next to the sidebar */
+  border: 1px solid #ccc; /* Just as an example */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chat-header {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+.chat-header h2 {
+  margin: 0;
+}
+
+.chat-messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
+  padding-bottom: 20px; /* Add more space at the bottom */
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  max-width: 80%; /* Adjust as needed */
+  word-wrap: break-word;
+}
+
+.message.user {
+  background-color: #f0f0f0; /* Light gray background for user messages */
+  align-self: flex-end; /* Align to the right */
+  text-align: right; /* Text aligned to the right */
+}
+
+.message.bot {
+  background-color: #d0d0f0; /* Light blue background for bot messages */
+  align-self: flex-start; /* Align to the left */
+  text-align: left; /* Text aligned to the left */
+}
+
+.message-input {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 20px; /* Ensure there's space below the input box */
+  border-top: 1px solid #ccc; /* Just as an example */
+  align-items: center;
+}
+
+.message-input input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.message-input button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007BFF; /* Example color to make the button stand out */
+  color: white;
+}
+
+.file-upload-container {
+  width: 25px; /* Adjust the width as needed */
+  overflow: hidden;
+  margin-right: 10px; /* Space between file input and text input */
+}
+
+.file-upload-container input[type="file"] {
+  width: 100%;
+  cursor: pointer;
+}
+
+.text-input-container {
+  flex-grow: 1; /* Makes the text input expand to fill the remaining space */
+}
+
+.text-input-container input[type="text"] {
+  width: 100%;
+}

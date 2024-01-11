@@ -1,0 +1,59 @@
+.order-list {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+  
+.order-item {
+    width: 260px; /* fixed width */
+    margin: 10px; /* centering the item if the container is wider */
+    border: 1px solid #ddd; /* light border for each item */
+    border-radius: 8px; /* rounded corners */
+    padding: 15px; /* space inside each item */
+    background-color: #f9f9f9; /* light background for each item */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    cursor: pointer; /* To indicate the item is clickable */
+    transition: background-color 0.3s;
+}
+
+.order-item.selected {
+    background-color: #eaf4ff; /* Highlight color for selected item */
+    border-color: #007bff; /* Border color to match the highlight */
+}
+
+.order-item > div {
+    margin-bottom: 8px; /* space between each line */
+}
+
+.order-item > div:first-child {
+    font-size: 1.2em; /* larger font for the first line, usually the restaurant name */
+    font-weight: bold; /* make the restaurant name bold */
+    color: #333; /* darker color for better readability */
+}
+
+.order-item > div:nth-child(2) {
+    font-weight: bold; /* make the total amount bold */
+    color: #E8554E; /* a distinct color for price */
+}
+
+.order-item > div:last-child {
+    font-style: italic; /* italicize the date */
+    color: #555; /* slightly lighter color for the date */
+}
+
+.status-pending {
+    color: #FFA500; /* Orange */
+  }
+  
+  .status-in-transit {
+    color: #1E90FF; /* DodgerBlue */
+  }
+  
+  .status-delivered {
+    color: #32CD32; /* LimeGreen */
+  }
+  
+  .status-unknown {
+    color: #808080; /* Grey */
+  }

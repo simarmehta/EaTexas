@@ -1,0 +1,26 @@
+.home-page {
+  display: flex;
+  justify-content: flex-start; /* Align the child components to the start horizontally */
+  align-items: start; /* Align the child components to the top */
+  height: 100vh; /* Full height of the viewport */
+  width: 100vw;
+}
+
+* {
+  box-sizing: border-box; /* Ensures padding does not affect overall width */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Example font for consistency */
+}
+
+@media (max-width: 768px) {
+  .home-page {
+    flex-direction: column; /* Stack components on smaller screens */
+  }
+
+  .chat-area,
+  .food-recommendation {
+    width: 100%; /* Full width on smaller screens */
+    margin-bottom: 20px; /* Space between stacked components */
+  }
+}
