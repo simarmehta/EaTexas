@@ -14,7 +14,7 @@ Deployment:
     [orders page](https://kocavs.github.io/Cloud_Project/)                                                                                                                                                            
     [delivery page](https://kocavs.github.io/eat-nyc-delivery/)
 
-[Lambda function details](https://docs.google.com/document/d/1x_vJZbfJCnK7_993TdxC9T-BCZxd4eyW_2rb1yBaw2k/edit?usp=sharing)https://docs.google.com/document/d/1x_vJZbfJCnK7_993TdxC9T-BCZxd4eyW_2rb1yBaw2k/edit?usp=sharing
+[Lambda function details](https://docs.google.com/document/d/1x_vJZbfJCnK7_993TdxC9T-BCZxd4eyW_2rb1yBaw2k/edit?usp=sharing)
 
 
 
