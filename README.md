@@ -1,4 +1,70 @@
-# eat_texas
+
+# EaTexas
+
+EaTexas is a system designed to manage orders and deliveries for a restaurant. The project is built using Python and JavaScript, and includes various Lambda functions to handle operations. 
+
+## Table of Contents
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [System Design](#system-design)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+
+## Features
+
+- Order management
+- Delivery management
+- Reservation system integration
+
+## Installation
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Python 3.8+
+- Node.js
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/simarmehta/EaTexas.git
+cd EaTexas
+```
+
+### Setup Environment
+
+1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Set up environment variables:
+
+```bash
+export VARIABLE_NAME=value
+```
+
+## Usage
+
+To run the project locally:
+
+```bash
+python main.py
+```
+
+## System Design
+
+The system is broken into key components:
+
+- [Order and Reservation System](https://lucid.app/lucidchart/order-reservation)
+- [Delivery Management System](https://lucid.app/lucidchart/delivery-management)
+
+Additional system design resources can be found in the repository links.
+
 
 Youtube video link: https://www.youtube.com/watch?v=uDrWZBMBmZo
 
